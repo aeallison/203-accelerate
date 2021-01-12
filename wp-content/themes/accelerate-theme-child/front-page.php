@@ -18,7 +18,7 @@ get_header(); ?>
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo site_url('/blog/') ?>">View Our Work</a>
+				<a class="button" href="<?php echo site_url('/case-studies/') ?>">View Our Work</a>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
@@ -38,7 +38,7 @@ get_header(); ?>
 					<?php echo wp_get_attachment_image($image_1, $size); ?>
 				</figure>
 
-				<h3><?php the_title(); ?></h3>
+				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h3>
 			</li>
          	<?php endwhile; // end of loop. ?> 
 			<?php wp_reset_query(); // resets the altered query back to original ?>

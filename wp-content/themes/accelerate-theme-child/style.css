@@ -10,6 +10,8 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+/* HOMEPAGE */
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -35,6 +37,11 @@ Text Domain:  accelerate-theme-child
 }
 .blog-post h3 {
     font-size: 1.5em;
+    color: black;
+}
+
+.blog-post p {
+    text-transform: none;
 }
 .read-more-link {
     font-family: 'Montserrat';
@@ -42,6 +49,7 @@ Text Domain:  accelerate-theme-child
     color: #45ac9d;
     text-transform: uppercase;
 }
+
 /* FEATURED WORK */
 .featured-work h4 {
     text-align: center;
@@ -56,7 +64,15 @@ Text Domain:  accelerate-theme-child
 }
 
 .individual-featured-work h3 {
+    margin: 10px 5px;
+    font-size: 1em;
     text-align: center;
+}
+
+.individual-featured-work h3 a {
+    color: black;
+    padding-left: 25px;
+    text-transform: none;
 }
 
 
@@ -71,6 +87,16 @@ div.case-study-images {
     float: left;
     width: 606px;
     margin: 25px;
+}
+
+div.case-study-images img {
+    width: 100%;
+    height: auto;
+}
+
+h2 a {
+    font-family: 'Open Sans';
+    color: black;
 }
 
 a {
@@ -93,4 +119,33 @@ h6 {
 }
 figure, img {
     margin: 15px;
+}
+
+/* FOOTER SOCIAL ICONS */
+
+.social-media-navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px 0 20px;
+}
+
+.social-media-navigation li {
+    flex-basis: auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #3b3b3b;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.social-media-navigation a {
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.10em;
+    line-height: 2;
 }
