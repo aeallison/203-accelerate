@@ -149,3 +149,50 @@ figure, img {
     font-size: 1.10em;
     line-height: 2;
 }
+
+/* CONTACT FORM */
+
+.contact-us .main-content {
+    padding: 0 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+nf-fields-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+#nf-field-1-container {
+    width: 300px;
+    padding-right: 15px;
+}
+
+#nf-field-2-container {
+    width: 300px;   
+}
+
+#nf-field-3-container {
+    width: 600px;
+}
+
+#nf-field-4 {
+    background-color: #45ac9d;
+    width: 200px;
+    margin-left: 400px;
+}
+
+#nf-label-field-1 , 
+#nf-label-field-2 ,
+#nf-label-field-3 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+

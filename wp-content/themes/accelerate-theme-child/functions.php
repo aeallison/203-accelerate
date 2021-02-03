@@ -17,6 +17,17 @@ function accelerate_child_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
+function accelerate_child_body_classes ( $classes ) {
+    if (is_page('contact-us') ) {
+        $classes[] = 'contact-us';
+    }
+
+        return $classes;
+
+}
+add_filter(
+    'body_class','accelerate_child_body_classes' );
+
 // CUSTOM POST TYPE FUNCTION
 function create_custom_post_types() {
 // CREATE CASE STUDY CUSTOM POST TYPE	
