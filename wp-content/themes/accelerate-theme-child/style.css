@@ -270,6 +270,19 @@ div#primary.home-page.hero-content.about {
     text-align: center;
   }
 
+  /** 404 PAGE **/
+
+  .main-content {
+    background-color: #a6a6a6;
+    height: 800px;
+
+  }
+
+  .main-content , 
+  .error h1 {
+    font-family: 'Lorinda Solid', cursive;
+    color: #ffffff;
+  }
 
 
 
