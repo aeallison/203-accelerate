@@ -193,6 +193,83 @@ nf-fields-wrap {
     font-weight: 600;
 }
 
+/** ABOUT PAGE **/
+
+div#primary.home-page.hero-content.about {
+    padding: 3em 0;
+  }
+  .about .main-content {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+    padding: 0;
+  }
+  .about h3 {
+    font-size: 1.4em;
+    width: 55%;
+    margin: auto;
+  }
+  .about-subheading {
+    width: 55%;
+    margin: 50px auto;
+  }
+  .about-subheading h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .about-subheading p {
+    text-align: center;
+  }
+  ul.about-services {
+    display: flex;
+    flex-direction: column;
+  }
+  li.individual-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+  .individual-services-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .individual-services-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 66%;
+    text-align: left;
+  }
+  .individual-services-text h3{
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: auto 0;
+  }
+  .individual-services:nth-child(even) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .contact-us-button {
+    border-top: 1px solid #bfbfbf;
+    width: 100%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 1.2em;
+  }
+  .contact-us-button h2 {
+    margin: 2em .25em 1em;
+    line-height: 1;
+    text-align: center;
+  }
+
 
 
 
